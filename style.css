@@ -1,0 +1,207 @@
+/* ===== Global Reset and Defaults ===== */
+
+
+body {
+  font-family: Arial, sans-serif;
+  color: #111;
+  line-height: 1.6;
+}
+
+/* ===== Container for consistent width ===== */
+.container {
+  width: 90%;
+  max-width: 1100px;
+  margin: 0 auto;
+}
+
+/* ===== Navbar Styling ===== */
+.nav {
+  background: #fff;
+  border-bottom: 1px solid #eee;
+  padding: 20px 0;
+}
+
+.nav-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  font-size: 34px;
+  font-weight: bold;
+  color: #3b00ff;
+}
+
+/* ===== Reusable Button Style ===== */
+.button{
+  background-color: #3b00ff;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+/* ===== Hero Section ===== */
+.bg-section {
+  text-align: center;
+  padding: 100px 20px;
+  background-image: url(../Assets/Hero-bg.png);
+  background-repeat: no-repeat;
+}
+
+.hero-section h1 {
+  font-size: 2rem;
+  margin-bottom: 20px;
+}
+
+/* ===== Video Section ===== */
+.live-section {
+  padding: 60px 0;
+  background-color: #fff;
+}
+
+.live-content {
+  display: flex;
+  gap: 30px;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}
+
+/* ===== Stats Section ===== */
+.stats-section {
+  background-color: #e6e8fa;
+  padding: 50px 0;
+  text-align: center;
+}
+
+.stats {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.stats div h3 {
+  font-size: 2rem;
+  color: #3b00ff;
+}
+
+/* ===== Testimonials Section ===== */
+.testimonials {
+  padding: 60px 0;
+  text-align: center;
+  background: #fff;
+}
+
+.testimonial-cards {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-top: 20px;
+}
+
+.card {
+  background-color: #f9f9f9;
+  padding: 20px;
+  border-radius: 8px;
+  max-width: 250px;
+}
+
+/* ===== CTA Section ===== */
+.focus-section {
+  background-color: #f1f3f8;
+  text-align: center;
+  padding: 60px 20px;
+}
+
+.focus-section img {
+  margin-top: 20px;
+  max-width: 100%;
+}
+
+/* ===== Contact Form ===== */
+.contact-form {
+  padding: 60px 20px;
+  background-color: #fff;
+  text-align: center;
+}
+
+.contact-form form {
+  max-width: 500px;
+  margin: 0 auto;
+  display: grid;
+  gap: 15px;
+}
+
+.contact-form input,
+.contact-form textarea {
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  width: 100%;
+}
+
+/* ===== Footer Section ===== */
+.footer {
+  background-color: #f4f7fc;
+  text-align: center;
+  padding: 30px 20px;
+  font-size: 0.9rem;
+  color: #555;
+}
+
+.reviewer {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.contact-form {
+  flex: 1;
+  min-width: 300px;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.contact-form label {
+  font-size: 14px;
+  font-weight: 500;
+  color: #333;
+}
+
+.contact-form input,
+.contact-form textarea {
+  padding: 12px;
+  font-size: 16px;
+  border: 1px solid #ddd;
+  border-radius: 6px;
+  background-color: #fff;
+  outline: none;
+  transition: border 0.3s ease;
+}
+
+.contact-form input:focus,
+.contact-form textarea:focus {
+  border-color: #3b00ff;
+}
+
+/* ===== Button Styling ===== */
+.contact-form button {
+  background-color: #4f46e5;
+  color: white;
+  border: none;
+  padding: 14px;
+  font-size: 14px;
+  border-radius: 8px;
+  cursor: pointer;
+  margin-top: 10px;
+  
+}
+
+.contact-form button:hover {
+  background-color: #3b00ff;
+}
+
